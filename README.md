@@ -26,7 +26,7 @@ Comunicar la red de usuarios con el servidor web remoto mediante una VPN Site-to
 
 ## Documentación
 
-- [Documentación completa](Documentacion_Infraestructura1_VPN_Oliver_Aquino.md)
+- [Documentación completa](Documentacion_Infraestructura1_VPN_Oliver_Aquino.pdf)
 
 ## Scripts y comandos
 
