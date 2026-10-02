@@ -1,0 +1,25 @@
+INFRAESTRUCTURA 1 - RESUMEN DE COMANDOS Y PRUEBAS
+
+USER-PC
+- Obtener dirección por DHCP en eth0.
+- Verificar dirección y ruta por defecto.
+- Ping al WEB-SRV 10.15.71.130.
+- Traceroute hacia 10.15.71.130.
+- Solicitud HTTPS hacia https://10.15.71.130.
+
+WEB-SRV
+- Dirección: 10.15.71.130/28.
+- Gateway: 10.15.71.129.
+- Nginx activo en TCP/443.
+- Certificado HTTPS autofirmado.
+
+VPN
+- FG1: VPN-FG1-FG2.
+- FG2: VPN-FG2-FG1.
+- Red usuarios: 10.15.71.0/25.
+- Red servidor: 10.15.71.128/28.
+
+Prueba principal:
+- VPN activa: comunicación y HTTPS funcionan.
+- VPN inactiva: comunicación falla.
+- VPN reactivada: comunicación vuelve.
