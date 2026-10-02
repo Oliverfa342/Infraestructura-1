@@ -1,0 +1,10 @@
+WEB-SRV - Infraestructura 1
+
+IP: 10.15.71.130/28
+Gateway: 10.15.71.129
+Servicio: Nginx HTTPS
+Puerto: TCP/443
+
+Se instalaron nginx y openssl usando temporalmente el nodo NAT de GNS3.
+Después se restauró la conexión al FG2 y se configuró la dirección estática.
+Se creó un certificado autofirmado y una página de prueba para validar HTTPS.
