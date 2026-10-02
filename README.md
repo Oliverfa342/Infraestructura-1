@@ -40,8 +40,10 @@ Comunicar la red de usuarios con el servidor web remoto mediante una VPN Site-to
 
 - [ISP](running-configs/ISP_running-config.txt)
 - [SW-USERS](running-configs/SW-USERS_running-config.txt)
-- [FG1](running-configs/FG1_configuracion_relevante.conf)
-- [FG2](running-configs/FG2_configuracion_relevante.conf)
+- [FG1 - Backup completo sanitizado](running-configs/FG1_FortiGate_BACKUP_COMPLETO_SANITIZADO.conf)
+- [FG2 - Backup completo sanitizado](running-configs/FG2_FortiGate_BACKUP_COMPLETO_SANITIZADO.conf)
+- [FG1 - Configuración relevante](running-configs/FG1_configuracion_relevante.conf)
+- [FG2 - Configuración relevante](running-configs/FG2_configuracion_relevante.conf)
 - [WEB-SRV](running-configs/WEB-SRV_configuracion.sh)
 
 ## Validaciones
