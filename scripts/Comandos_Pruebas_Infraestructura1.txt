@@ -1,0 +1,11 @@
+USER-PC-1
+ip addr show eth0
+ip route
+ping 10.15.71.130
+traceroute 10.15.71.130
+wget --no-check-certificate -O- https://10.15.71.130
+
+Objetivo:
+VPN activa -> ping/HTTPS/traceroute funcionan.
+VPN deshabilitada -> acceso al servidor falla.
+VPN reactivada -> acceso vuelve a funcionar.
